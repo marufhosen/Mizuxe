@@ -1,0 +1,94 @@
+body{
+    margin-top: 90px;
+}
+
+.navbar{
+    box-shadow: 0px 4px 5px 0px rgba(0,122,143,0.61);
+    color: black;
+    background: white;
+    opacity: 0.8;
+}
+.navbar .nav-item{
+    font-size: 23px;
+    padding-right: 20px;
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+.navbar .nav-item .nav-link{
+    color: #252525;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #3292a6;
+}
+#showcase{
+    background-image: url('/img/mountains.jpg');
+    color: white;
+    min-height: 600px;
+    position: relative;
+}
+#showcase .overlay{
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+}
+#subscribe{
+    background: #252525;
+}
+
+#subscribe .row .btn{
+    background: #3292a6;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: larger;
+}
+#subscribe .row .btn:hover{
+    background: #376b75;
+}
+#boxes .row h3{
+    color: #3292a6;
+}
+#boxes .row .card{
+    border-color: #3292a6;
+}
+#boxes .row .first{
+    background: #3292a6;
+    color: white;
+}
+#boxes .row .first h3{
+    color: white;
+}
+
+#author img{
+    margin-top: -75px;
+}
+
+#author .fa{
+    color: #3292a6;
+}
+
+#author .card:hover{
+    background: #f0efed;
+}
+
+#contact button{
+    background: #3292a6;
+    color: white;
+
+}
+#contact button:hover{
+    background: #3f828f;
+}
+#contact img{
+    margin-top: 160px;
+}
+footer{
+    background: #3f828f;
+    color: white;
+}
